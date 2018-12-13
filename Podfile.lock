@@ -1,0 +1,319 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - DeepLinkKit (1.5.0)
+  - FBRetainCycleDetector (0.1.4)
+  - FBSDKCoreKit (4.38.1):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.38.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.38.1):
+    - FBSDKCoreKit
+  - FLEX (2.4.0)
+  - GoogleSignIn (4.3.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
+  - GPUImage (0.1.7)
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.1):
+    - GTMSessionFetcher/Full (= 1.2.1)
+  - GTMSessionFetcher/Core (1.2.1)
+  - GTMSessionFetcher/Full (1.2.1):
+    - GTMSessionFetcher/Core (= 1.2.1)
+  - JKCategories (1.8):
+    - JKCategories/CoreData (= 1.8)
+    - JKCategories/CoreLocation (= 1.8)
+    - JKCategories/Foundation (= 1.8)
+    - JKCategories/MapKit (= 1.8)
+    - JKCategories/QuartzCore (= 1.8)
+    - JKCategories/UIKit (= 1.8)
+  - JKCategories/CoreData (1.8):
+    - JKCategories/CoreData/NSFetchRequest (= 1.8)
+    - JKCategories/CoreData/NSManagedObject (= 1.8)
+    - JKCategories/CoreData/NSManagedObjectContext (= 1.8)
+  - JKCategories/CoreData/NSFetchRequest (1.8)
+  - JKCategories/CoreData/NSManagedObject (1.8):
+    - JKCategories/CoreData/NSManagedObjectContext
+  - JKCategories/CoreData/NSManagedObjectContext (1.8):
+    - JKCategories/CoreData/NSFetchRequest
+  - JKCategories/CoreLocation (1.8):
+    - JKCategories/CoreLocation/CLLocation (= 1.8)
+  - JKCategories/CoreLocation/CLLocation (1.8)
+  - JKCategories/Foundation (1.8):
+    - JKCategories/Foundation/NSArray (= 1.8)
+    - JKCategories/Foundation/NSBundle (= 1.8)
+    - JKCategories/Foundation/NSData (= 1.8)
+    - JKCategories/Foundation/NSDate (= 1.8)
+    - JKCategories/Foundation/NSDateFormatter (= 1.8)
+    - JKCategories/Foundation/NSDictionary (= 1.8)
+    - JKCategories/Foundation/NSException (= 1.8)
+    - JKCategories/Foundation/NSFileHandle (= 1.8)
+    - JKCategories/Foundation/NSFileManager (= 1.8)
+    - JKCategories/Foundation/NSHTTPCookieStorage (= 1.8)
+    - JKCategories/Foundation/NSIndexPath (= 1.8)
+    - JKCategories/Foundation/NSInvocation (= 1.8)
+    - JKCategories/Foundation/NSNotificationCenter (= 1.8)
+    - JKCategories/Foundation/NSNumber (= 1.8)
+    - JKCategories/Foundation/NSObject (= 1.8)
+    - JKCategories/Foundation/NSRunLoop (= 1.8)
+    - JKCategories/Foundation/NSSet (= 1.8)
+    - JKCategories/Foundation/NSString (= 1.8)
+    - JKCategories/Foundation/NSTimer (= 1.8)
+    - JKCategories/Foundation/NSURL (= 1.8)
+    - JKCategories/Foundation/NSURLConnection (= 1.8)
+    - JKCategories/Foundation/NSURLRequest (= 1.8)
+    - JKCategories/Foundation/NSURLSession (= 1.8)
+    - JKCategories/Foundation/NSUserDefaults (= 1.8)
+  - JKCategories/Foundation/NSArray (1.8)
+  - JKCategories/Foundation/NSBundle (1.8)
+  - JKCategories/Foundation/NSData (1.8)
+  - JKCategories/Foundation/NSDate (1.8)
+  - JKCategories/Foundation/NSDateFormatter (1.8)
+  - JKCategories/Foundation/NSDictionary (1.8)
+  - JKCategories/Foundation/NSException (1.8)
+  - JKCategories/Foundation/NSFileHandle (1.8)
+  - JKCategories/Foundation/NSFileManager (1.8)
+  - JKCategories/Foundation/NSHTTPCookieStorage (1.8)
+  - JKCategories/Foundation/NSIndexPath (1.8)
+  - JKCategories/Foundation/NSInvocation (1.8)
+  - JKCategories/Foundation/NSNotificationCenter (1.8)
+  - JKCategories/Foundation/NSNumber (1.8)
+  - JKCategories/Foundation/NSObject (1.8)
+  - JKCategories/Foundation/NSRunLoop (1.8)
+  - JKCategories/Foundation/NSSet (1.8)
+  - JKCategories/Foundation/NSString (1.8):
+    - JKCategories/Foundation/NSData
+  - JKCategories/Foundation/NSTimer (1.8)
+  - JKCategories/Foundation/NSURL (1.8)
+  - JKCategories/Foundation/NSURLConnection (1.8)
+  - JKCategories/Foundation/NSURLRequest (1.8)
+  - JKCategories/Foundation/NSURLSession (1.8)
+  - JKCategories/Foundation/NSUserDefaults (1.8)
+  - JKCategories/MapKit (1.8):
+    - JKCategories/MapKit/MKMapView (= 1.8)
+  - JKCategories/MapKit/MKMapView (1.8)
+  - JKCategories/QuartzCore (1.8):
+    - JKCategories/QuartzCore/CAAnimation (= 1.8)
+    - JKCategories/QuartzCore/CALayer (= 1.8)
+    - JKCategories/QuartzCore/CAMediaTimingFunction (= 1.8)
+    - JKCategories/QuartzCore/CAShapeLayer (= 1.8)
+    - JKCategories/QuartzCore/CATransaction (= 1.8)
+  - JKCategories/QuartzCore/CAAnimation (1.8)
+  - JKCategories/QuartzCore/CALayer (1.8)
+  - JKCategories/QuartzCore/CAMediaTimingFunction (1.8)
+  - JKCategories/QuartzCore/CAShapeLayer (1.8)
+  - JKCategories/QuartzCore/CATransaction (1.8)
+  - JKCategories/UIKit (1.8):
+    - JKCategories/UIKit/UIAlertView (= 1.8)
+    - JKCategories/UIKit/UIApplication (= 1.8)
+    - JKCategories/UIKit/UIBarButtonItem (= 1.8)
+    - JKCategories/UIKit/UIBezierPath (= 1.8)
+    - JKCategories/UIKit/UIButton (= 1.8)
+    - JKCategories/UIKit/UIColor (= 1.8)
+    - JKCategories/UIKit/UIControl (= 1.8)
+    - JKCategories/UIKit/UIDevice (= 1.8)
+    - JKCategories/UIKit/UIFont (= 1.8)
+    - JKCategories/UIKit/UIImage (= 1.8)
+    - JKCategories/UIKit/UIImageView (= 1.8)
+    - JKCategories/UIKit/UILable (= 1.8)
+    - JKCategories/UIKit/UINavigationBar (= 1.8)
+    - JKCategories/UIKit/UINavigationController (= 1.8)
+    - JKCategories/UIKit/UINavigationItem (= 1.8)
+    - JKCategories/UIKit/UIPopoverController (= 1.8)
+    - JKCategories/UIKit/UIResponder (= 1.8)
+    - JKCategories/UIKit/UIScreen (= 1.8)
+    - JKCategories/UIKit/UIScrollView (= 1.8)
+    - JKCategories/UIKit/UISearchBar (= 1.8)
+    - JKCategories/UIKit/UISplitViewController (= 1.8)
+    - JKCategories/UIKit/UITableView (= 1.8)
+    - JKCategories/UIKit/UITableViewCell (= 1.8)
+    - JKCategories/UIKit/UITextField (= 1.8)
+    - JKCategories/UIKit/UITextView (= 1.8)
+    - JKCategories/UIKit/UIView (= 1.8)
+    - JKCategories/UIKit/UIViewController (= 1.8)
+    - JKCategories/UIKit/UIWebView (= 1.8)
+    - JKCategories/UIKit/UIWindow (= 1.8)
+  - JKCategories/UIKit/UIAlertView (1.8)
+  - JKCategories/UIKit/UIApplication (1.8)
+  - JKCategories/UIKit/UIBarButtonItem (1.8)
+  - JKCategories/UIKit/UIBezierPath (1.8)
+  - JKCategories/UIKit/UIButton (1.8)
+  - JKCategories/UIKit/UIColor (1.8)
+  - JKCategories/UIKit/UIControl (1.8)
+  - JKCategories/UIKit/UIDevice (1.8)
+  - JKCategories/UIKit/UIFont (1.8)
+  - JKCategories/UIKit/UIImage (1.8)
+  - JKCategories/UIKit/UIImageView (1.8)
+  - JKCategories/UIKit/UILable (1.8)
+  - JKCategories/UIKit/UINavigationBar (1.8)
+  - JKCategories/UIKit/UINavigationController (1.8)
+  - JKCategories/UIKit/UINavigationItem (1.8)
+  - JKCategories/UIKit/UIPopoverController (1.8)
+  - JKCategories/UIKit/UIResponder (1.8)
+  - JKCategories/UIKit/UIScreen (1.8)
+  - JKCategories/UIKit/UIScrollView (1.8)
+  - JKCategories/UIKit/UISearchBar (1.8)
+  - JKCategories/UIKit/UISplitViewController (1.8)
+  - JKCategories/UIKit/UITableView (1.8)
+  - JKCategories/UIKit/UITableViewCell (1.8)
+  - JKCategories/UIKit/UITextField (1.8)
+  - JKCategories/UIKit/UITextView (1.8)
+  - JKCategories/UIKit/UIView (1.8)
+  - JKCategories/UIKit/UIViewController (1.8)
+  - JKCategories/UIKit/UIWebView (1.8):
+    - JKCategories/UIKit/UIColor
+  - JKCategories/UIKit/UIWindow (1.8)
+  - libwebp (0.6.1):
+    - libwebp/core (= 0.6.1)
+    - libwebp/dec (= 0.6.1)
+    - libwebp/demux (= 0.6.1)
+    - libwebp/dsp (= 0.6.1)
+    - libwebp/enc (= 0.6.1)
+    - libwebp/mux (= 0.6.1)
+    - libwebp/utils (= 0.6.1)
+    - libwebp/webp (= 0.6.1)
+  - libwebp/core (0.6.1):
+    - libwebp/webp
+  - libwebp/dec (0.6.1):
+    - libwebp/core
+  - libwebp/demux (0.6.1):
+    - libwebp/core
+  - libwebp/dsp (0.6.1):
+    - libwebp/core
+  - libwebp/enc (0.6.1):
+    - libwebp/core
+  - libwebp/mux (0.6.1):
+    - libwebp/core
+  - libwebp/utils (0.6.1):
+    - libwebp/core
+  - libwebp/webp (0.6.1)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - NetworkEye (1.0.6):
+    - NetworkEye/standard (= 1.0.6)
+  - NetworkEye/standard (1.0.6)
+  - Reachability (3.2)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SDWebImage/WebP (4.4.2):
+    - libwebp (~> 0.5)
+    - SDWebImage/Core
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+  - WMPageController (2.5.2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Aspects
+  - DeepLinkKit
+  - FBRetainCycleDetector
+  - FBSDKLoginKit (= 4.38.1)
+  - FBSDKShareKit (= 4.38.1)
+  - FLEX (~> 2.0)
+  - GoogleSignIn
+  - GPUImage
+  - JKCategories
+  - Masonry
+  - MJRefresh
+  - NetworkEye
+  - Reachability
+  - SDWebImage (~> 4.0)
+  - SDWebImage/WebP
+  - TwitterKit
+  - WMPageController
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Aspects
+    - Bolts
+    - DeepLinkKit
+    - FBRetainCycleDetector
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - FLEX
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GPUImage
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - JKCategories
+    - libwebp
+    - Masonry
+    - MJRefresh
+    - NetworkEye
+    - Reachability
+    - SDWebImage
+    - TwitterCore
+    - TwitterKit
+    - WMPageController
+    - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  DeepLinkKit: 98a26f2c5cf4c86b97c1170cdf3737ae49a3a50c
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  FBSDKCoreKit: 8d47857400e2f5bdea697a80daff882e91c84ef6
+  FBSDKLoginKit: 4621c690d9dd8628031a4791497062183ea34b0d
+  FBSDKShareKit: 6ffe22f0a0618eb7424d4104ab0ef3ce9643d42a
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  GoogleSignIn: 11183592dc63e105475c7305a325045ff95e02b7
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  JKCategories: b62b30694ebe6d9fe5520b54ba250015dabd6dae
+  libwebp: 0f01098c6c17175391af621b2f14150f3ca16e16
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  NetworkEye: 54afcde161ab50e407445b86abd7350f3cd08533
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: a6b0a787d5247b430cd6822a98d7a42f3b5f25e8
+
+COCOAPODS: 1.5.3
