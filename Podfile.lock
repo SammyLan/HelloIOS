@@ -233,6 +233,7 @@ PODS:
   - TwitterCore (3.2.0)
   - TwitterKit (3.4.2):
     - TwitterCore (>= 3.2.0)
+  - WechatOpenSDK (1.8.3)
   - WMPageController (2.5.2)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
@@ -256,6 +257,7 @@ DEPENDENCIES:
   - SDWebImage (~> 4.0)
   - SDWebImage/WebP
   - TwitterKit
+  - WechatOpenSDK
   - WMPageController
   - YYKit
 
@@ -284,6 +286,7 @@ SPEC REPOS:
     - SDWebImage
     - TwitterCore
     - TwitterKit
+    - WechatOpenSDK
     - WMPageController
     - YYKit
 
@@ -311,9 +314,10 @@ SPEC CHECKSUMS:
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+  WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
   WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: a6b0a787d5247b430cd6822a98d7a42f3b5f25e8
+PODFILE CHECKSUM: 927eb44d8f78a32bbd3ab9a9fea22716cf47fe59
 
 COCOAPODS: 1.5.3

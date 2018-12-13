@@ -37,6 +37,8 @@ target 'HelloiOS' do
   # pod 'Fabric'
   pod 'TwitterKit'
   
+  pod 'WechatOpenSDK'
+  
   
   pod 'Aspects'
   # Debug
