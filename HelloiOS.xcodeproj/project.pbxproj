@@ -106,8 +106,8 @@
 				DB85AEFF21C255A9002288D8 /* Sources */,
 				DB85AF0021C255A9002288D8 /* Frameworks */,
 				DB85AF0121C255A9002288D8 /* Resources */,
-				F6A68E9EE0D9BB0818FEB7DE /* [CP] Copy Pods Resources */,
 				662A1F2772F4228EEA172D70 /* [CP] Embed Pods Frameworks */,
+				E47B60C8D4E9683DCD2F0FC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,7 +254,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloiOS/Pods-HelloiOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6A68E9EE0D9BB0818FEB7DE /* [CP] Copy Pods Resources */ = {
+		E47B60C8D4E9683DCD2F0FC4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
