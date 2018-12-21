@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:WSLoginSDK/WSLoginSDK.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:HelloiOS.xcodeproj">
    </FileRef>
    <FileRef

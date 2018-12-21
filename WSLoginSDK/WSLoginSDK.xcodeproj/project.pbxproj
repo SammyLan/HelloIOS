@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDC8AA100A7A631858779A32 /* Pods_WSLoginSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375BA3A0B6DC01B0394CA633 /* Pods_WSLoginSDK.framework */; };
+		DB6F3A4121C38ABD00B83D10 /* WSLoginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6F3A3F21C38ABD00B83D10 /* WSLoginSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD0257B21C391CC00197A0D /* WSLoginSDKBase.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD0257921C391CC00197A0D /* WSLoginSDKBase.h */; };
+		DBD0257C21C391CC00197A0D /* WSLoginSDKBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD0257A21C391CC00197A0D /* WSLoginSDKBase.m */; };
+		DBD0257F21C393F600197A0D /* WnsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD0257D21C393F600197A0D /* WnsSDK.framework */; };
+		DBD0258021C393F600197A0D /* xplatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD0257E21C393F600197A0D /* xplatform.framework */; };
+		DBD0258B21C3A22600197A0D /* libssl_64bit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD0258921C3A22600197A0D /* libssl_64bit.a */; };
+		DBD0258C21C3A22600197A0D /* libcrypto_64bit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD0258A21C3A22600197A0D /* libcrypto_64bit.a */; };
+		DBD0259221C3A5F300197A0D /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD0259121C3A5F300197A0D /* libiconv.tbd */; };
+		DBD0259421C3A62C00197A0D /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD0259321C3A62C00197A0D /* libresolv.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		375BA3A0B6DC01B0394CA633 /* Pods_WSLoginSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSLoginSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		988D05FFC00A561AD6F35A88 /* Pods-WSLoginSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSLoginSDK.release.xcconfig"; path = "../Pods/Target Support Files/Pods-WSLoginSDK/Pods-WSLoginSDK.release.xcconfig"; sourceTree = "<group>"; };
+		AF4A5391ECEA6E6A61872FB8 /* Pods-WSLoginSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSLoginSDK.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-WSLoginSDK/Pods-WSLoginSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		DB6F3A3C21C38ABD00B83D10 /* WSLoginSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSLoginSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6F3A3F21C38ABD00B83D10 /* WSLoginSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSLoginSDK.h; sourceTree = "<group>"; };
+		DB6F3A4021C38ABD00B83D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD0257921C391CC00197A0D /* WSLoginSDKBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSLoginSDKBase.h; sourceTree = "<group>"; };
+		DBD0257A21C391CC00197A0D /* WSLoginSDKBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSLoginSDKBase.m; sourceTree = "<group>"; };
+		DBD0257D21C393F600197A0D /* WnsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WnsSDK.framework; path = ../Framework/WnsSDK/WnsSDK.framework; sourceTree = "<group>"; };
+		DBD0257E21C393F600197A0D /* xplatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = xplatform.framework; path = ../Framework/WnsSDK/xplatform.framework; sourceTree = "<group>"; };
+		DBD0258921C3A22600197A0D /* libssl_64bit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl_64bit.a; path = ../Framework/WnsSDK/libssl_64bit.a; sourceTree = "<group>"; };
+		DBD0258A21C3A22600197A0D /* libcrypto_64bit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto_64bit.a; path = ../Framework/WnsSDK/libcrypto_64bit.a; sourceTree = "<group>"; };
+		DBD0259121C3A5F300197A0D /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		DBD0259321C3A62C00197A0D /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB6F3A3921C38ABD00B83D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD0259421C3A62C00197A0D /* libresolv.tbd in Frameworks */,
+				DBD0259221C3A5F300197A0D /* libiconv.tbd in Frameworks */,
+				DBD0258B21C3A22600197A0D /* libssl_64bit.a in Frameworks */,
+				DBD0258C21C3A22600197A0D /* libcrypto_64bit.a in Frameworks */,
+				DBD0257F21C393F600197A0D /* WnsSDK.framework in Frameworks */,
+				DBD0258021C393F600197A0D /* xplatform.framework in Frameworks */,
+				BDC8AA100A7A631858779A32 /* Pods_WSLoginSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50CAC5ABBD14E66F36BCF5BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBD0259321C3A62C00197A0D /* libresolv.tbd */,
+				DBD0259121C3A5F300197A0D /* libiconv.tbd */,
+				DBD0258A21C3A22600197A0D /* libcrypto_64bit.a */,
+				DBD0258921C3A22600197A0D /* libssl_64bit.a */,
+				DBD0257D21C393F600197A0D /* WnsSDK.framework */,
+				DBD0257E21C393F600197A0D /* xplatform.framework */,
+				375BA3A0B6DC01B0394CA633 /* Pods_WSLoginSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE80A9E4D09930447B5C32D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF4A5391ECEA6E6A61872FB8 /* Pods-WSLoginSDK.debug.xcconfig */,
+				988D05FFC00A561AD6F35A88 /* Pods-WSLoginSDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB6F3A3221C38ABD00B83D10 = {
+			isa = PBXGroup;
+			children = (
+				DBD0257421C3903100197A0D /* LoginSDK */,
+				DB6F3A3E21C38ABD00B83D10 /* WSLoginSDK */,
+				DB6F3A3D21C38ABD00B83D10 /* Products */,
+				AE80A9E4D09930447B5C32D0 /* Pods */,
+				50CAC5ABBD14E66F36BCF5BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB6F3A3D21C38ABD00B83D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F3A3C21C38ABD00B83D10 /* WSLoginSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB6F3A3E21C38ABD00B83D10 /* WSLoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F3A3F21C38ABD00B83D10 /* WSLoginSDK.h */,
+				DB6F3A4021C38ABD00B83D10 /* Info.plist */,
+			);
+			path = WSLoginSDK;
+			sourceTree = "<group>";
+		};
+		DBD0257421C3903100197A0D /* LoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DBD0257921C391CC00197A0D /* WSLoginSDKBase.h */,
+				DBD0257A21C391CC00197A0D /* WSLoginSDKBase.m */,
+			);
+			path = LoginSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DB6F3A3721C38ABD00B83D10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD0257B21C391CC00197A0D /* WSLoginSDKBase.h in Headers */,
+				DB6F3A4121C38ABD00B83D10 /* WSLoginSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DB6F3A3B21C38ABD00B83D10 /* WSLoginSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6F3A4421C38ABD00B83D10 /* Build configuration list for PBXNativeTarget "WSLoginSDK" */;
+			buildPhases = (
+				556A5BAEF32D673E66E9FCD3 /* [CP] Check Pods Manifest.lock */,
+				DB6F3A3721C38ABD00B83D10 /* Headers */,
+				DB6F3A3821C38ABD00B83D10 /* Sources */,
+				DB6F3A3921C38ABD00B83D10 /* Frameworks */,
+				DB6F3A3A21C38ABD00B83D10 /* Resources */,
+				12CB8077CE2F8F0DD2BA6970 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSLoginSDK;
+			productName = WSLoginSDK;
+			productReference = DB6F3A3C21C38ABD00B83D10 /* WSLoginSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB6F3A3321C38ABD00B83D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "蓝秀文";
+				TargetAttributes = {
+					DB6F3A3B21C38ABD00B83D10 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = DB6F3A3621C38ABD00B83D10 /* Build configuration list for PBXProject "WSLoginSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB6F3A3221C38ABD00B83D10;
+			productRefGroup = DB6F3A3D21C38ABD00B83D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB6F3A3B21C38ABD00B83D10 /* WSLoginSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB6F3A3A21C38ABD00B83D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12CB8077CE2F8F0DD2BA6970 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-WSLoginSDK/Pods-WSLoginSDK-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-WSLoginSDK/Pods-WSLoginSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		556A5BAEF32D673E66E9FCD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WSLoginSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB6F3A3821C38ABD00B83D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD0257C21C391CC00197A0D /* WSLoginSDKBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB6F3A4221C38ABD00B83D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB6F3A4321C38ABD00B83D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB6F3A4521C38ABD00B83D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4A5391ECEA6E6A61872FB8 /* Pods-WSLoginSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K2V29VDMX5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Aspects\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Bolts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DeepLinkKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBRetainCycleDetector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKShareKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FLEX\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GPUImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMOAuth2\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JKCategories\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/NetworkEye\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Reachability\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/WMPageController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libwebp\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"\"${PODS_ROOT}/TwitterCore/iOS\"",
+					"\"${PODS_ROOT}/TwitterKit/iOS\"",
+					"\"${WORKSPACE_ROOT}Framework/WnsSDK\"",
+				);
+				INFOPLIST_FILE = WSLoginSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/WechatOpenSDK/WeChatSDK1.8.3\"",
+					"\"${WORKSPACE_ROOT}Framework/WnsSDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.blueskystudio.WSLoginSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WORKSPACE_ROOT = "${SRCROOT}/../";
+			};
+			name = Debug;
+		};
+		DB6F3A4621C38ABD00B83D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988D05FFC00A561AD6F35A88 /* Pods-WSLoginSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K2V29VDMX5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Aspects\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Bolts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DeepLinkKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKShareKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GPUImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMOAuth2\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JKCategories\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/NetworkEye\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Reachability\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/WMPageController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libwebp\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"\"${PODS_ROOT}/TwitterCore/iOS\"",
+					"\"${PODS_ROOT}/TwitterKit/iOS\"",
+					"\"${WORKSPACE_ROOT}Framework/WnsSDK\"",
+				);
+				INFOPLIST_FILE = WSLoginSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/WechatOpenSDK/WeChatSDK1.8.3\"",
+					"\"${WORKSPACE_ROOT}Framework/WnsSDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.blueskystudio.WSLoginSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WORKSPACE_ROOT = "${SRCROOT}/../";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB6F3A3621C38ABD00B83D10 /* Build configuration list for PBXProject "WSLoginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6F3A4221C38ABD00B83D10 /* Debug */,
+				DB6F3A4321C38ABD00B83D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6F3A4421C38ABD00B83D10 /* Build configuration list for PBXNativeTarget "WSLoginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6F3A4521C38ABD00B83D10 /* Debug */,
+				DB6F3A4621C38ABD00B83D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB6F3A3321C38ABD00B83D10 /* Project object */;
+}

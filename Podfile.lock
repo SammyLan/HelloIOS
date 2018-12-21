@@ -220,6 +220,8 @@ PODS:
   - libwebp/webp (0.6.1)
   - Masonry (1.1.0)
   - MJRefresh (3.1.15.7)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
   - NetworkEye (1.0.6):
     - NetworkEye/standard (= 1.0.6)
   - NetworkEye/standard (1.0.6)
@@ -252,6 +254,7 @@ DEPENDENCIES:
   - JKCategories
   - Masonry
   - MJRefresh
+  - MLeaksFinder
   - NetworkEye
   - Reachability
   - SDWebImage (~> 4.0)
@@ -281,6 +284,7 @@ SPEC REPOS:
     - libwebp
     - Masonry
     - MJRefresh
+    - MLeaksFinder
     - NetworkEye
     - Reachability
     - SDWebImage
@@ -309,6 +313,7 @@ SPEC CHECKSUMS:
   libwebp: 0f01098c6c17175391af621b2f14150f3ca16e16
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
   NetworkEye: 54afcde161ab50e407445b86abd7350f3cd08533
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
@@ -318,6 +323,6 @@ SPEC CHECKSUMS:
   WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: fb85bd678c8bed7882c5d23ef6b7425fe81cd5cb
+PODFILE CHECKSUM: 021b22251aa574d8752792aa1620cc3e9c599fe8
 
 COCOAPODS: 1.5.3

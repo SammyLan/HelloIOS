@@ -14,6 +14,7 @@
 		DB85AF1021C255AB002288D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB85AF0F21C255AB002288D8 /* Assets.xcassets */; };
 		DB85AF1321C255AB002288D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB85AF1121C255AB002288D8 /* LaunchScreen.storyboard */; };
 		DB85AF1621C255AB002288D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB85AF1521C255AB002288D8 /* main.m */; };
+		DBD0258221C399B700197A0D /* WSLoginSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD0258121C399B700197A0D /* WSLoginSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,11 @@
 		DB85AF1221C255AB002288D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB85AF1421C255AB002288D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB85AF1521C255AB002288D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBD0258121C399B700197A0D /* WSLoginSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WSLoginSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD0258521C3A1DA00197A0D /* WnsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WnsSDK.framework; path = Framework/WnsSDK/WnsSDK.framework; sourceTree = "<group>"; };
+		DBD0258621C3A1DA00197A0D /* xplatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = xplatform.framework; path = Framework/WnsSDK/xplatform.framework; sourceTree = "<group>"; };
+		DBD0258D21C3A47C00197A0D /* libssl_64bit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl_64bit.a; path = Framework/WnsSDK/libssl_64bit.a; sourceTree = "<group>"; };
+		DBD0258E21C3A47C00197A0D /* libcrypto_64bit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto_64bit.a; path = Framework/WnsSDK/libcrypto_64bit.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD0258221C399B700197A0D /* WSLoginSDK.framework in Frameworks */,
 				2E17ACBDD8BBFAD9A84EAE5E /* Pods_HelloiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +54,11 @@
 		6556DEF0BDAA9CA7D96746A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DBD0258E21C3A47C00197A0D /* libcrypto_64bit.a */,
+				DBD0258D21C3A47C00197A0D /* libssl_64bit.a */,
+				DBD0258521C3A1DA00197A0D /* WnsSDK.framework */,
+				DBD0258621C3A1DA00197A0D /* xplatform.framework */,
+				DBD0258121C399B700197A0D /* WSLoginSDK.framework */,
 				DA3E49564D1B95F539890B9C /* Pods_HelloiOS.framework */,
 			);
 			name = Frameworks;
@@ -210,6 +222,7 @@
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/JKCategories/JKCategories.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/NetworkEye/NetworkEye.framework",
 				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
@@ -239,6 +252,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JKCategories.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLeaksFinder.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetworkEye.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
@@ -432,10 +446,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K2V29VDMX5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework/WnsSDK",
+					"\"${WORKSPACE_ROOT}Framework/WnsSDK\"",
+				);
 				INFOPLIST_FILE = HelloiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework/WnsSDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.blueskystudio.HelloiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,10 +474,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K2V29VDMX5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework/WnsSDK",
+					"\"${WORKSPACE_ROOT}Framework/WnsSDK\"",
+				);
 				INFOPLIST_FILE = HelloiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework/WnsSDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.blueskystudio.HelloiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
